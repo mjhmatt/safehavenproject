@@ -1,0 +1,457 @@
+/*
+	Theme Name: Safe Haven Project
+	Theme URI: http://html5blank.com
+	Description: Boilerplate for safe haven project
+	Version: 1.0
+	Author: mjhmatt
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+@import url('@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,900');');
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html {
+	font-size:62.5%;
+}
+body {
+	font:300 14px/1.4 'Montserrat', Helvetica, Arial, sans-serif;
+	color:#fff;
+	padding: 120px 0 0;
+}
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:#444;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.wrapper {
+	margin:0 auto;
+	position:relative;
+}
+/* header */
+.header {
+
+}
+/* logo */
+.logo {
+
+}
+.logo-img {
+
+}
+/* nav */
+nav {
+	overflow: hidden;
+	background-color: transparent;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index:1000;
+	text-align:center;
+	height:60px;
+	border-bottom: 0.1px solid rgba(255,255,255,0.11);
+	padding: 20px 0;
+}
+
+.nav a {
+	color:white;
+	text-decoration:none;
+	text-align: center;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:700;
+	height:34px;
+}
+
+.nav li {
+	display:inline-block;
+	margin:0 11px;
+}
+/* sidebar */
+.sidebar {
+
+}
+/* footer */
+.footer {
+
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+.home-inner {
+	background-image:url('img/background.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top: -220px;
+	padding: 160px 0 0;
+}
+
+.home-content {
+	text-align:center;
+	width: 77%;
+	margin:0 auto;
+	padding: 220px 0 100px;
+}
+
+.home-content h1 {
+	font-size:62px;
+	color:white;
+	font-weight:700;
+	position:relative;
+	max-width: 1042px;
+}
+
+.home-content h2 {
+	font-size:24px;
+	font-weight:700;
+	width: 50%;
+	margin: 80px auto 0;
+	max-width: 520px;
+}
+
+
+.donate {
+	padding:50px 0;
+	text-align:center;
+}
+
+.donate h2 {
+	color:#492682;
+	width: 30%;
+	max-width: 430px;
+	font-size:24px;
+	margin:0 auto;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.donate h3 {
+	color:#492682;
+	width: 30%;
+	max-width: 430px;
+	font-size:16px;
+	margin: 35px auto 55px;
+}
+.donation-points {
+	text-align:center;
+}
+
+.donation-points li {
+	cursor:pointer;
+	color:#492682;
+	font-weight:700;
+	display:inline-block;
+	font-size:34px;
+	width:14%;
+	max-width:190px;
+	padding:10px 0;
+	border:1px solid #86E9D3;
+	margin:0 2.25%;
+}
+
+.donation-points li.active {
+	background-color:rgba(134,233,211,0.24);
+	border:3px solid #86E9D3;
+}
+
+.donation-description p {
+	text-align:center;
+	font-weight: 400;
+	font-size:16px;
+	color:#492682;
+	width: 30%;
+	max-width: 430px;
+	margin: 50px auto;
+}
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+.no-display {
+	display:none;
+}
+
+
+/*------------------------------------*\
+    Rotating Words
+\*------------------------------------*/
+
+.rw-words{
+	display: inline-block;
+	margin-left: 5px;
+	width: 31%;
+}
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color:#492682;
+	background-color:white;
+	padding: 0 16px;
+	margin-top: -64px;
+	margin-left: -15%;
+}
+
+.rw-words span{
+	animation: rotateWordsFirst 9s linear infinite 0s;
+}
+
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+}
+
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 1px; }
+    8% { opacity: 1; height: 82px; }
+    19% { opacity: 1; height: 82px; }
+	25% { opacity: 0; height: 82px; }
+    100% { opacity: 0; }
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}
