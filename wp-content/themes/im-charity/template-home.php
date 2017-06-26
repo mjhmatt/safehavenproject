@@ -42,6 +42,34 @@ get_header();
 
 </div>
 
+<div class="clear client-and-focus">
+
+	<a class="float-left client main-areas">
+
+		<div class="client-inside">
+			<?php $clientProfiles = get_page_by_path('client-profiles'); ?>
+			<?php $clientProfilesDesc = rwmb_meta( 'client_profiles',false,$clientProfiles->ID);?>
+			<?php $profileCount = count($clientProfiles); ?>
+			<h4> <?= get_the_title($clientProfiles->ID);?></h4>
+
+			<h5>“He doesn't mean to. It’s only bad when he drinks. He loves me”</h5>
+			<h6>Tanya, single mum of 3y/o</h6>
+		</div>
+	</a>
+
+
+	<a class="float-left focus main-areas">
+
+		<?php $ourFocus = get_page_by_path('our-focus'); ?>
+		<h4> <?= get_the_title($ourFocus->ID);?></h4>
+
+		<h5>Safe Haven is a fundraising portal for local domestic violence specialist services</h5>
+		<p>Enabling these domestic violence specialist services to raise much needed funds while providing discreet services to those in need.  Our local services focus on addressing the safety and wellbeing of women and children who have experienced domestic violence.</p>
+		<span>READ MORE &rarr;</span>
+
+	</a>
+
+</div>
 
 <!-- DONATE -->
 <div class="donate clear">
@@ -65,7 +93,7 @@ get_header();
 
 		</ul>
 
-		<div class="donation-description">
+		<div class="donation-description clear">
 
 			<?php foreach($donationStats as $key=>$stat): ?>
 
@@ -74,6 +102,12 @@ get_header();
 			<?php endforeach; ?>
 
 		</div>
+
+
+		<a class="donate-button" href="#">
+			Donate Now
+		</a>
+
 	</div>
 
 

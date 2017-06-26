@@ -26,8 +26,13 @@
 	<body <?php body_class(); ?>>
 
 		<!-- nav -->
-		<nav class="nav" role="navigation">
+		<nav class="nav clear" role="navigation">
+			<p class="main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/shp.svg"/></p>
+
 			<?php html5blank_nav(); ?>
+			<a href="#" class="donate-now-header">
+				Donate Now
+			</a>
 		</nav>
 		<!-- /nav -->
 		<!-- wrapper -->

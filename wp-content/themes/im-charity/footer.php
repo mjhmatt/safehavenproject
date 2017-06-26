@@ -1,12 +1,25 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="footer clear" role="contentinfo">
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
+				<div class="footer-inside">
+					<!-- copyright -->
+					<div class="clear">
+						<p class="copyright float-left">
+							&copy; <?php echo date('Y'); ?> by <?php bloginfo('name'); ?>
+						</p>
+						<!-- /copyright -->
+						<p class="float-right social">
+							<a class="fb-logo" href="#" target="_blank"><span class="fb-logo-inside"></span></a>
+							<a class="youtube-logo" href="#" target="_blank"><span class="youtube-logo-inside"></span></a>
+						</p>
+					</div>
+
+					<div class="clear">
+						<p class="receipt">
+							Receipts will be issued by The Deli Women & Children’s Centre who is managing this function for the Safe Haven Project 
+						</p>
+					</div>
+				</div>
 
 			</footer>
 			<!-- /footer -->
