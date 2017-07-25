@@ -104,7 +104,7 @@ get_header();
 		</div>
 
 
-		<a class="donate-button" href="#">
+		<a class="donate-button" href="https://www.givenow.com.au/safehavenproject" target="_blank">
 			Donate Now
 		</a>
 

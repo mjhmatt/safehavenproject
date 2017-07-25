@@ -9,8 +9,8 @@
 						</p>
 						<!-- /copyright -->
 						<p class="float-right social">
-							<a class="fb-logo" href="#" target="_blank"><span class="fb-logo-inside"></span></a>
-							<a class="youtube-logo" href="#" target="_blank"><span class="youtube-logo-inside"></span></a>
+							<a class="fb-logo" href="https://www.facebook.com/safehavenproject1/" target="_blank"><span class="fb-logo-inside"></span></a>
+							<!-- <a class="youtube-logo" href="#" target="_blank"><span class="youtube-logo-inside"></span></a> -->
 						</p>
 					</div>
 
